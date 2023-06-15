@@ -37,6 +37,14 @@ p {
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
